@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  font-family: sans-serif;
+  display: flex;
+  padding-right: 300px;
+}
+
+#resultBox {
+  color: green;
+  border: double;
+  height: 23px;
+  width: 230px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+#buttonFlex {
+  display: flex;
+}
+
+#result {
+  padding-top: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.resultP {
+  padding-left: 440px;
+}
+
+.infoBox {
+  display: inline-block;
+  padding-right: 400px;
+  padding-top: 40px;
+  border: solid;
+  border-right: 100px;
+  border-left: 100px;
+  width: 700px;
+  align-items: center;
+
+}
+
+
+.lokiH {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+  text-shadow: 2px 2px teal;
+
+}
+
+.lokiH2 {
+  display: flex;
+  color: green;
+  text-shadow: 2px 2px 10px  white;
+  padding-right: 10px;
+}
+
+button {
+  color: blue;
+}
+
+.leftBox {
+  flex-direction: row;
+  display: flex;
+}
+
+.infoBoxP {
+  color: white;
+}
